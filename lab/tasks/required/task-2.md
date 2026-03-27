@@ -263,7 +263,7 @@ Both are in a single repository. The webchat plugin handles:
    PY
    ```
 
-10. Open `http://<your-vm-ip>:42002/flutter` in your browser. Log in with your `NANOBOT_ACCESS_KEY`. Start by asking the agent:
+10. Open `http://<your-vm-ip-address>:42002/flutter` in your browser. Log in with your `NANOBOT_ACCESS_KEY`. Start by asking the agent:
     - `What can you do in this system?`
     - `How is the backend doing?`
 
@@ -304,7 +304,7 @@ Both are in a single repository. The webchat plugin handles:
 ### Checkpoint for Part B
 
 1. `websocat "ws://localhost:42002/ws/chat?access_key=YOUR_NANOBOT_ACCESS_KEY"` returns a real agent response.
-2. Open `http://<your-vm-ip>:42002/flutter` — you should see a login screen.
+2. Open `http://<your-vm-ip-address>:42002/flutter` — you should see a login screen.
 3. Log in with your `NANOBOT_ACCESS_KEY`, ask `What can you do in this system?`, then ask `How is the backend doing?`
 4. The second answer should be backed by real LMS/backend data, not just a generic greeting.
 5. Screenshot the conversation and add it to `REPORT.md` under `## Task 2B — Web client`. The screenshot should show at least one real agent answer, not only the welcome screen.

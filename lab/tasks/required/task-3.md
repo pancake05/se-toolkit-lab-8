@@ -54,7 +54,7 @@ The backend already emits structured log events via OpenTelemetry.
    docker compose --env-file .env.docker.secret start postgres
    ```
 
-5. Open the VictoriaLogs web UI at `http://<your-vm-ip>:42002/utils/victorialogs/select/vmui`. Run a LogsQL query that filters by service and error level. Compare how easy this is versus grepping `docker compose logs`.
+5. Open the VictoriaLogs web UI at `http://<your-vm-ip-address>:42002/utils/victorialogs/select/vmui`. Run a LogsQL query that filters by service and error level. Compare how easy this is versus grepping `docker compose logs`.
 
    In this stack, the most useful fields are `service.name`, `severity`, `event`, and `trace_id`. A good query to start with is:
 
@@ -91,7 +91,7 @@ The backend already emits structured log events via OpenTelemetry.
 
 ### What to do in Part B
 
-1. Open the VictoriaTraces UI at `http://<your-vm-ip>:42002/utils/victoriatraces`.
+1. Open the VictoriaTraces UI at `http://<your-vm-ip-address>:42002/utils/victoriatraces`.
 
    If you query VictoriaTraces directly over HTTP from inside the stack, use the Jaeger-compatible API exposed by VictoriaTraces itself. In this deployment that means URLs shaped like:
 

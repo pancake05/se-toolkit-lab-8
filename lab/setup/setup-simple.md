@@ -281,7 +281,7 @@ docker compose --env-file .env.docker.secret down
 
 The database starts empty. You need to run the ETL pipeline to populate it with data from the autochecker API.
 
-1. Open `http://<your-vm-ip>:42002/docs` in your browser (or `localhost:42002` if you forwarded the port via VS Code).
+1. Open `http://<your-vm-ip-address>:42002/docs` in your browser (or `localhost:42002` if you forwarded the port via VS Code).
 
    You should see the Swagger UI page.
 
@@ -311,11 +311,11 @@ The database starts empty. You need to run the ETL pipeline to populate it with 
 
 ### 1.6. Verify the deployment on your VM
 
-1. Open `http://<your-vm-ip>:42002/docs` in your browser.
+1. Open `http://<your-vm-ip-address>:42002/docs` in your browser.
 
    You should see the Swagger UI with all endpoints.
 
-2. Open `http://<your-vm-ip>:42002/` in your browser.
+2. Open `http://<your-vm-ip-address>:42002/` in your browser.
 
    You should see the React dashboard. Enter your `LMS_API_KEY` to connect.
 
