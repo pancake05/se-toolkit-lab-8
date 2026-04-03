@@ -55,11 +55,6 @@
         try_files {path} /index.html
         file_server
     }
-    # Task 3 — LLM API proxy for autochecker
-    handle /llm* {
-        uri strip_prefix /llm
-        reverse_proxy http://qwen-code-api:{$QWEN_CODE_API_CONTAINER_PORT}
-    }
     handle {
         root * /srv/react
         try_files {path} /index.html
