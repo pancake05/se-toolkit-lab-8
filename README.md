@@ -76,3 +76,4 @@ In Lab 7 you built one client around your own LLM loop. Here, the agent becomes 
 
 ### Optional
 Task 1 complete.
+Wonderfull task 2.
