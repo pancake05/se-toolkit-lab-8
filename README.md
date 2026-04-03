@@ -75,5 +75,4 @@ In Lab 7 you built one client around your own LLM loop. Here, the agent becomes 
 4. [Diagnose a Failure and Make the Agent Proactive](./lab/tasks/required/task-4.md) — investigate a failure, schedule in-chat health checks, fix a planted bug
 
 ### Optional
-
-
+Task 1 complete.
