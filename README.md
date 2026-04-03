@@ -1,4 +1,8 @@
 # Lab 8 — The Agent is the Interface
+## ## Task 1A — Bare agent
+## Task 1B — Agent with LMS tools
+## Task 1C — Skill prompt
+
 
 [Sync your fork](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork#syncing-a-fork-branch-from-the-command-line) regularly — the lab gets updated.
 
@@ -72,4 +76,4 @@ In Lab 7 you built one client around your own LLM loop. Here, the agent becomes 
 
 ### Optional
 
-1. [Add a Telegram Bot Client](./lab/tasks/optional/task-1.md) — same agent, different interface
+
